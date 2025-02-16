@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Renato_Parcial": {
+    "Consorcio-Geppi": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -59,10 +59,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "Renato_Parcial:build:production"
+              "buildTarget": "Consorcio-Geppi:build:production"
             },
             "development": {
-              "buildTarget": "Renato_Parcial:build:development"
+              "buildTarget": "Consorcio-Geppi:build:development"
             }
           },
           "defaultConfiguration": "development"
