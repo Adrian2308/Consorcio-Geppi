@@ -1,0 +1,470 @@
+:root {
+    --color1: #005798;
+    --color2: #008FC3;
+    --color3: #BFBCBC;
+    --color4: #87B034;
+    --color5: #87B035;
+    --color6: #5A5A5A;
+    --color7: #FBFBF9;
+    --color8: #04589A;
+}
+
+body {
+    z-index: 0 !important;
+}
+
+.navtext {
+    color: var(--color1) !important;
+    font-size: 1rem;
+    font-weight: 650;
+}
+
+.btn-info {
+    color: white;
+    font-weight: 650;
+    background-color: var(--color2) !important;
+    font-size: 1rem;
+    padding: 0 35px;
+}
+
+.subnav {
+    background-color: var(--color1);
+}
+
+.subnav-text {
+    color: white;
+    font-size: 0.8rem;
+}
+
+.text-principal {
+    color: var(--color1);
+}
+
+p {
+    margin-bottom: 0.5rem;
+}
+
+.text-footer {
+    color: var(--color3);
+}
+
+.bf-color {
+    border-color: var(--color1) !important;
+}
+
+.footer-banner {
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(95deg, rgba(0, 103, 166, 1) -100%, rgba(0, 118, 180, 0.5522584033613445) 100%, rgba(0, 87, 152, 1) 100%), url('../public/images/footer_banner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.fi_bg {
+    background-color: var(--color2);
+    top: -100px;
+    z-index: 3 !important;
+}
+
+.btn-cotiza {
+    background-color: #8BB231;
+    color: white;
+    font-weight: 500;
+}
+
+.footer-image {
+    position: relative;
+    z-index: 5 !important;
+}
+
+.footer-image-bg {
+    position: absolute;
+    right: auto;
+    bottom: 0;
+    background-color: var(--color2);
+    height: 80%;
+    width: 80%;
+    z-index: -100 !important;
+    border-radius: 75%;
+}
+/*          home               */
+.banner-home1 {
+    width: 100%;
+    height: 553px;
+    background: linear-gradient(95deg, rgba(0, 103, 166, 1) 15%, rgba(0, 118, 180, 0.5522584033613445) 100%, rgba(0, 87, 152, 1) 100%), url('../public/images/Banner-inicio1.png');
+    background-position: center;
+}
+
+.banner-box {
+    width: 79%;
+}
+
+.border-green {
+    border-color: #8BB231 !important;
+}
+
+.border-radius {
+    border-radius: 0 30px 0 0;
+}
+
+.box-m {
+    margin-top: 90px;
+}
+
+.personal-banner1,
+.personal-banner2 {
+    bottom: 0px;
+}
+
+.personal-banner1 {
+    right: 170px;
+    z-index: 10;
+}
+
+.personal-banner2 {
+    right: 30px;
+}
+
+.box-p {
+    padding-left: 28%;
+    padding-top: 9%;
+}
+
+.text-detail {
+    position: relative !important;
+    width: 100%;
+    height: 100%;
+}
+
+.text-detail::before {
+    content: '';
+    position: absolute;
+    top: -40px;
+    left: 2px;
+    width: 34px !important;
+    height: 34px !important;
+    border-radius: 0 20% 0 0;
+    background-color: var(--color4);
+    z-index: 100 !important;
+}
+
+.section1 {
+    margin-top: 190px;
+    margin-bottom: 100px;
+}
+
+.green {
+    color: var(--color5);
+}
+
+.blue-principal {
+    color: var(--color1);
+}
+
+.p-grey {
+    color: var(--color6);
+}
+
+.section-p {
+    font-size: 0.9rem;
+}
+
+.hand-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #008FC3;
+    width: 82px;
+    height: 80px;
+    border-radius: 0 20% 0 0;
+}
+
+.width1030 {
+    max-width: 1030px;
+    margin: 0 auto;
+}
+
+.border-corner {
+    border-radius: 0 20% 0 0;
+}
+
+.banner-home2 {
+    width: 100%;
+    height: 506px;
+    background: linear-gradient(95deg, rgba(0, 103, 166, 1) -100%, rgba(0, 118, 180, 0.5522584033613445) 100%, rgba(0, 87, 152, 1) 100%), url('../public/images/banner-home2.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-beige {
+    background-color: var(--color7);
+}
+
+.section3 {
+    height: 1268px;
+}
+
+.section3-container {
+    width: 1201px;
+    height: 1086px;
+}
+
+.move-g {
+    top: -79px;
+}
+
+.gallery-text {
+    top: -45%;
+}
+
+.shadow {
+    filter: brightness(0.6);
+}
+
+.color-skyblue {
+    color: var(--color2);
+}
+
+.section4 {
+    margin-bottom: 200px;
+}
+/*      us           */
+.banner-us1 {
+    width: 100%;
+    height: 553px;
+    background: linear-gradient(95deg, rgba(0, 103, 166, 1) -100%, rgba(0, 118, 180, 0.5522584033613445) 100%, rgba(0, 87, 152, 1) 100%), url('../public/images/bannerus.png');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.banner-detail {
+    left: 0px;
+    top: 131px;
+    height: 560px;
+    width: auto;
+}
+
+.section1us-w {
+    width: 1197px;
+}
+
+.imgdetail {
+    top: -100px;
+    left: 198px;
+}
+
+.section2us {
+    height: 438px;
+    background: linear-gradient(181deg, rgb(0 103 166) 31%, rgb(0 87 152 / 67%) 100%, rgb(0 118 180) 100%);
+}
+.section2us img{
+    bottom: 439px;
+    left: 0;
+}
+.section2us div{
+    max-width: 1227px;
+}
+.m-text{
+    position: relative;
+}
+.m-text::before {
+    content: '';
+    position: absolute;
+    top: -50px;
+    left: 1px;
+    width: 34px !important;
+    height: 34px !important;
+    border-radius: 0 20% 0 0;
+    background-color: var(--color4);
+    z-index: 100 !important;
+}
+.v-text{
+    position: relative;
+}
+.v-text::before {
+    content: '';
+    position: absolute;
+    top: -50px;
+    left: 1px;
+    width: 34px !important;
+    height: 34px !important;
+    border-radius: 0 20% 0 0;
+    background-color: var(--color2);
+    z-index: 100 !important;
+}
+
+.section3us{
+    height: 735px;
+}
+.s3div{
+    height: 219px;
+    width: 1237px;
+    margin: 0 auto;
+}
+.s3div2{
+    height: 219px;
+    width: 818px;
+    margin: 0 auto;
+}
+.s3divhand{
+    background-color: var(--color2);
+    height: 44px;
+    width: 44px;
+    border-radius: 0 25% 0 0;
+}
+.section4usdiv{
+    height: 352px;
+    width: 1257px;
+    margin: 100px auto 200px auto;
+}
+.l-50{
+    left: 50px;
+}
+
+.section5usdiv{
+    padding: 70px 0 180px 0;
+    margin: 0 auto 0 auto;
+    width: 1358px;
+}
+/*          services            */
+.banner-services1 {
+    width: 100%;
+    height: 550px;
+    background: linear-gradient(95deg, rgba(0, 103, 166, 1) -100%, rgba(0, 118, 180, 0.5522584033613445) 100%, rgba(0, 87, 152, 1) 100%), url('../public/images/services-banner.png');
+    background-position: bottom;
+}
+.banner-services1 .box-p{
+    padding-left: 35%;
+    padding-top: 10%;
+}
+.imgservice{
+    height: 579px;
+    width: 426px;
+    border-radius: 15% 0 0 0;
+}
+.services-section1{
+    padding: 100px 0;
+}
+.services-textbox{
+    margin: 0 110px 0 350px;
+}
+.list-detail{
+    position: relative;
+}
+.list-detail::before{
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -25px;
+    width: 14px !important;
+    height: 14px !important;
+    border-radius: 0 20% 0 0;
+    background-color: var(--color4);
+    z-index: 100 !important;
+}
+
+.imgservice2{
+    height: 579px;
+    width: 426px;
+    border-radius: 15% 0 0 0;
+    transform: scaleX(-1);
+}
+.services-textbox2{
+    padding: 0 300px 0 170px;
+}
+.bg-bluep{
+    background-color: var(--color8);
+}
+.bg-skyblue{
+    background-color: var(--color2);
+}
+
+.list-detail2{
+    position: relative;
+}
+.list-detail2::before{
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -25px;
+    width: 14px !important;
+    height: 14px !important;
+    border-radius: 0 20% 0 0;
+    background-color: var(--color1);
+    z-index: 100 !important;
+}
+/* sustainability */
+.banner-sust1 {
+    width: 100%;
+    height: 553px;
+    background: linear-gradient(95deg, rgba(0, 103, 166, 1) -100%, rgba(0, 118, 180, 0.5522584033613445) 100%, rgba(0, 87, 152, 1) 100%), url('../public/images/sustbanner.png');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+.secsust1div{
+    height: 412px;
+    width: 1178px;
+    margin: 0 21%;
+}
+
+.secsust2{
+    width: 1929px;
+    height: 561px;
+    background-color: var(--color7);
+}
+.secsust2div{
+    width: 1243px;
+    height: 384px;
+    margin: auto;
+}
+.secsust3{
+    height: 685px;
+    width: 1919px;
+    background-color: var(--color1);
+}
+.secsust3div{
+    height: 472px;
+    width: 1202px;
+    margin: auto;
+}
+
+/* contact */
+
+.banner-contact1 {
+    width: 100%;
+    height: 553px;
+    background: linear-gradient(95deg, rgb(0 103 166 / 28%) -100%, rgba(0, 118, 180, 0.5522584033613445) 100%, rgba(0, 87, 152, 1) 100%), url('../public/images/contact-banner.png');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+.contactsec1{
+    margin-top:100px;
+    margin-bottom: 100px;
+}
+.contactsec1div{
+    width: 1198px;
+    height: 463px;
+    margin: auto;
+}
+.form1{
+    height: 463px;
+    width: 488px;
+    background-color: var(--color1);
+    border-radius: 25% 0 0 0;
+    padding: 60px;
+}
+.form2{
+    width: 644px;
+    height: 434px;
+}
+.form-control {
+    border: none;
+    border-bottom: 1px solid #A9B0B6;
+    border-radius: 0;
+    padding-left: 0;
+}
