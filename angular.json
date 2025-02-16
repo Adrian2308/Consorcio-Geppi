@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/renato-parcial",
+            "outputPath": "dist/Consorcio-Geppi",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
